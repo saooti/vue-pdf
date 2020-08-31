@@ -10,7 +10,7 @@
 
 		if ( typeof window !== 'undefined' && 'Worker' in window && navigator.appVersion.indexOf('MSIE 10') === -1 ) {
 
-			var PdfjsWorker = require('//mozilla.github.io/pdf.js/build/pdf.worker.js'');
+			var PdfjsWorker = require('//mozilla.github.io/pdf.js/build/pdf.worker.js');
 			PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
 		}
 

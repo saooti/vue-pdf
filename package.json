@@ -1,6 +1,6 @@
 {
   "name": "@saooti/vue-pdf",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
   "private": false,
