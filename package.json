@@ -1,24 +1,24 @@
 {
-  "name": "vue-pdf",
+  "name": "@saooti/vue-pdf",
   "version": "4.1.0",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranckFreiburger/vue-pdf.git"
+    "url": "git+https://github.com/saooti/vue-pdf.git"
   },
   "keywords": [
     "vue.js",
     "pdf",
     "viewer"
   ],
-  "author": "Franck FREIBURGER",
+  "author": "Cédric Clavier (from Franck FREIBURGER)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FranckFreiburger/vue-pdf/issues"
+    "url": "https://github.com/saooti/vue-pdf/issues"
   },
-  "homepage": "https://github.com/FranckFreiburger/vue-pdf#readme",
+  "homepage": "https://github.com/saooti/vue-pdf#readme",
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "loader-utils": "^1.4.0",
