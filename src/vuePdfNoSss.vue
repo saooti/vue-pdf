@@ -9,7 +9,7 @@
 		var PDFJS = require('pdfjs-dist/es5/build/pdf.js');
 
 		if ( typeof window !== 'undefined' && 'Worker' in window && navigator.appVersion.indexOf('MSIE 10') === -1 ) {
-		    PDFJS.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js'
+		    PDFJS.GlobalWorkerOptions.workerSrc = '/js/workers/pdf.worker.js'
 		}
 
 		var component = componentFactory(pdfjsWrapper(PDFJS));
