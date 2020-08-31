@@ -3,10 +3,10 @@
   "version": "4.1.0",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
-  "scripts": {},
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saooti/vue-pdf.git"
+    "url": "git+https://github.com/saooti/octopus-sdk.git"
   },
   "keywords": [
     "vue.js",
